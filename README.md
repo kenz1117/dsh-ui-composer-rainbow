@@ -1,17 +1,17 @@
 <div align="center">
 
-# dsh-ui-composer-rainbow
+# dsh-ui-rainbowspeak
 
 <p align="center"><b>虹语</b> RainbowSpeak — 一圈会流动的彩虹边框，输入框也有表情：运行时加速、待审琥珀、出错泛红。</p>
 
 <p align="center">
-  <a href="https://github.com/kenz1117/dsh-ui-composer-rainbow/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/kenz1117/dsh-ui-composer-rainbow?logo=github"></a>
-  <a href="https://www.npmjs.com/package/@kenz1117/dsh-ui-composer-rainbow"><img alt="npm version" src="https://img.shields.io/npm/v/@kenz1117/dsh-ui-composer-rainbow?logo=npm"></a>
-  <a href="https://www.npmjs.com/package/@kenz1117/dsh-ui-composer-rainbow"><img alt="npm downloads" src="https://img.shields.io/npm/dm/@kenz1117/dsh-ui-composer-rainbow?logo=npm"></a>
-  <a href="https://github.com/kenz1117/dsh-ui-composer-rainbow/blob/main/LICENSE"><img alt="License MIT" src="https://img.shields.io/github/license/kenz1117/dsh-ui-composer-rainbow"></a>
-  <a href="https://github.com/kenz1117/dsh-ui-composer-rainbow/pulls"><img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen"></a>
-  <a href="https://github.com/kenz1117/dsh-ui-composer-rainbow"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kenz1117/dsh-ui-composer-rainbow?logo=github"></a>
-  <a href="https://github.com/kenz1117/dsh-ui-composer-rainbow/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/kenz1117/dsh-ui-composer-rainbow"></a>
+  <a href="https://github.com/kenz1117/dsh-ui-rainbowspeak/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/kenz1117/dsh-ui-rainbowspeak?logo=github"></a>
+  <a href="https://www.npmjs.com/package/@kenz1117/dsh-ui-rainbowspeak"><img alt="npm version" src="https://img.shields.io/npm/v/@kenz1117/dsh-ui-rainbowspeak?logo=npm"></a>
+  <a href="https://www.npmjs.com/package/@kenz1117/dsh-ui-rainbowspeak"><img alt="npm downloads" src="https://img.shields.io/npm/dm/@kenz1117/dsh-ui-rainbowspeak?logo=npm"></a>
+  <a href="https://github.com/kenz1117/dsh-ui-rainbowspeak/blob/main/LICENSE"><img alt="License MIT" src="https://img.shields.io/github/license/kenz1117/dsh-ui-rainbowspeak"></a>
+  <a href="https://github.com/kenz1117/dsh-ui-rainbowspeak/pulls"><img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen"></a>
+  <a href="https://github.com/kenz1117/dsh-ui-rainbowspeak"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kenz1117/dsh-ui-rainbowspeak?logo=github"></a>
+  <a href="https://github.com/kenz1117/dsh-ui-rainbowspeak/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/kenz1117/dsh-ui-rainbowspeak"></a>
   <a href="https://awesome-dsh-plugin.com"><img alt="Awesome DSH Plugin" src="https://awesome-dsh-plugin.com/badge.svg"></a>
 </p>
 
@@ -22,7 +22,7 @@
 ---
 
 <div align="center">
-  <img src="assets/01-composer-rainbow-default.png" alt="dsh-ui-composer-rainbow — 输入框经典彩虹边框" width="80%">
+  <img src="assets/01-rainbowspeak-default.png" alt="dsh-ui-rainbowspeak — 输入框经典彩虹边框" width="80%">
 </div>
 
 ## ✨ 为什么选它
@@ -66,7 +66,7 @@
 从 dsh CLI 安装：
 
 ```sh
-dsh plugin add @kenz1117/dsh-ui-composer-rainbow
+dsh plugin add @kenz1117/dsh-ui-rainbowspeak
 ```
 
 或手动加入 profile 的 `package.json`：
@@ -74,7 +74,7 @@ dsh plugin add @kenz1117/dsh-ui-composer-rainbow
 ```json
 {
   "dependencies": {
-    "@kenz1117/dsh-ui-composer-rainbow": "*"
+    "@kenz1117/dsh-ui-rainbowspeak": "*"
   }
 }
 ```
@@ -84,7 +84,7 @@ dsh plugin add @kenz1117/dsh-ui-composer-rainbow
 ```json
 {
   "dependencies": {
-    "@kenz1117/dsh-ui-composer-rainbow": "link:/absolute/path/to/dsh-ui-composer-rainbow"
+    "@kenz1117/dsh-ui-rainbowspeak": "link:/absolute/path/to/dsh-ui-rainbowspeak"
   }
 }
 ```
@@ -117,4 +117,4 @@ pnpm bundle         # tsdown: lib/index.js（node 半边）+ lib/client.js（浏
 
 ## 📄 许可证
 
-[MIT](https://github.com/kenz1117/dsh-ui-composer-rainbow) © 2026 KenZ (kenz1117)
+[MIT](https://github.com/kenz1117/dsh-ui-rainbowspeak) © 2026 KenZ (kenz1117)

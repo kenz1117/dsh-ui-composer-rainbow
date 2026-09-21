@@ -46,7 +46,7 @@ describe('client apply', () => {
 
   it('注入一个 style 标签并携带插件归属标识', () => {
     apply(fakeCtx())
-    const tag = document.head.querySelector('style[data-plugin="@kenz1117/dsh-ui-composer-rainbow"]')
+    const tag = document.head.querySelector('style[data-plugin="@kenz1117/dsh-ui-rainbowspeak"]')
     expect(tag).not.toBeNull()
     expect(tag?.textContent).toContain('[data-composer-card]')
   })

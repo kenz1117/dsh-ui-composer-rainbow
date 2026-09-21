@@ -22,7 +22,7 @@
  * - `prefers-reduced-motion` 下停用全部动画（保留静态描边）。
  *
  * style 标签随插件 effect 生命周期挂载/卸载，重复 apply 幂等由 effect 一次性保证。
- * @module @kenz1117/dsh-ui-composer-rainbow/client
+ * @module @kenz1117/dsh-ui-rainbowspeak/client
  */
 
 import type { Context } from '@deepseek-ai/cordis'
@@ -182,7 +182,7 @@ html[data-rainbow-off] [data-composer-card]::before {
 }
 
 /** style 标签的 data-plugin 标识（宿主按此归属插件样式，卸载时清理）。 */
-const PLUGIN_ID = '@kenz1117/dsh-ui-composer-rainbow'
+const PLUGIN_ID = '@kenz1117/dsh-ui-rainbowspeak'
 
 /** 必需服务：slots 渲染接线 + locale 词典注册。 */
 export const inject = ['slots', 'locale']
@@ -201,7 +201,7 @@ export function apply(ctx: Context): void {
     return () => {
       tag.remove()
     }
-  }, 'ui-composer-rainbow: rainbow border stylesheet')
+  }, 'ui-rainbowspeak: rainbow border stylesheet')
   // 初始偏好下发（localStorage 已有值时恢复上次的开关/速度/配色等）。
   ctx.effect(() => {
     applyPrefs(loadPrefs())
@@ -216,19 +216,19 @@ export function apply(ctx: Context): void {
       root.style.removeProperty('--dsh-rainbow-width')
       root.style.removeProperty('--dsh-rainbow-direction')
     }
-  }, 'ui-composer-rainbow: initial preference application')
-  ctx.effect(() => ctx.locale.register(NS, { zh, en }), 'ui-composer-rainbow: dictionaries')
+  }, 'ui-rainbowspeak: initial preference application')
+  ctx.effect(() => ctx.locale.register(NS, { zh, en }), 'ui-rainbowspeak: dictionaries')
   const t = ctx.locale.bind(NS)
   ctx.slots.inject('settings.section', () => ctx.slots.register({
     name: 'settings.section',
-    id: 'composer-rainbow',
+    id: 'rainbowspeak',
     order: 90,
     label: () => t('nav'),
     locale: NS,
   }, RainbowSettingsSection))
   ctx.slots.inject('conversation.composer.dock', () => ctx.slots.register({
     name: 'conversation.composer.dock',
-    id: 'composer-rainbow-state',
+    id: 'rainbowspeak-state',
     order: 90,
   }, RainbowStateBridge))
 }

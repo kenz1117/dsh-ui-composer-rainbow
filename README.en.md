@@ -1,17 +1,17 @@
 <div align="center">
 
-# dsh-ui-composer-rainbow
+# dsh-ui-rainbowspeak
 
 <p align="center"><b>RainbowSpeak</b> (虹语) — a flowing rainbow border for the chat composer: the input box has moods — faster while running, amber while waiting, red on failure.</p>
 
 <p align="center">
-  <a href="https://github.com/kenz1117/dsh-ui-composer-rainbow/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/kenz1117/dsh-ui-composer-rainbow?logo=github"></a>
-  <a href="https://www.npmjs.com/package/@kenz1117/dsh-ui-composer-rainbow"><img alt="npm version" src="https://img.shields.io/npm/v/@kenz1117/dsh-ui-composer-rainbow?logo=npm"></a>
-  <a href="https://www.npmjs.com/package/@kenz1117/dsh-ui-composer-rainbow"><img alt="npm downloads" src="https://img.shields.io/npm/dm/@kenz1117/dsh-ui-composer-rainbow?logo=npm"></a>
-  <a href="https://github.com/kenz1117/dsh-ui-composer-rainbow/blob/main/LICENSE"><img alt="License MIT" src="https://img.shields.io/github/license/kenz1117/dsh-ui-composer-rainbow"></a>
-  <a href="https://github.com/kenz1117/dsh-ui-composer-rainbow/pulls"><img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen"></a>
-  <a href="https://github.com/kenz1117/dsh-ui-composer-rainbow"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kenz1117/dsh-ui-composer-rainbow?logo=github"></a>
-  <a href="https://github.com/kenz1117/dsh-ui-composer-rainbow/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/kenz1117/dsh-ui-composer-rainbow"></a>
+  <a href="https://github.com/kenz1117/dsh-ui-rainbowspeak/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/kenz1117/dsh-ui-rainbowspeak?logo=github"></a>
+  <a href="https://www.npmjs.com/package/@kenz1117/dsh-ui-rainbowspeak"><img alt="npm version" src="https://img.shields.io/npm/v/@kenz1117/dsh-ui-rainbowspeak?logo=npm"></a>
+  <a href="https://www.npmjs.com/package/@kenz1117/dsh-ui-rainbowspeak"><img alt="npm downloads" src="https://img.shields.io/npm/dm/@kenz1117/dsh-ui-rainbowspeak?logo=npm"></a>
+  <a href="https://github.com/kenz1117/dsh-ui-rainbowspeak/blob/main/LICENSE"><img alt="License MIT" src="https://img.shields.io/github/license/kenz1117/dsh-ui-rainbowspeak"></a>
+  <a href="https://github.com/kenz1117/dsh-ui-rainbowspeak/pulls"><img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen"></a>
+  <a href="https://github.com/kenz1117/dsh-ui-rainbowspeak"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kenz1117/dsh-ui-rainbowspeak?logo=github"></a>
+  <a href="https://github.com/kenz1117/dsh-ui-rainbowspeak/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/kenz1117/dsh-ui-rainbowspeak"></a>
   <a href="https://awesome-dsh-plugin.com"><img alt="Awesome DSH Plugin" src="https://awesome-dsh-plugin.com/badge.svg"></a>
 </p>
 
@@ -22,7 +22,7 @@
 ---
 
 <div align="center">
-  <img src="assets/01-composer-rainbow-default.png" alt="dsh-ui-composer-rainbow — classic rainbow border around the composer card" width="80%">
+  <img src="assets/01-rainbowspeak-default.png" alt="dsh-ui-rainbowspeak — classic rainbow border around the composer card" width="80%">
 </div>
 
 ## ✨ Why this one
@@ -66,7 +66,7 @@ Classic rainbow / aurora / sunset / peach / ocean / cyberpunk neon — plus *fol
 From the dsh CLI:
 
 ```sh
-dsh plugin add @kenz1117/dsh-ui-composer-rainbow
+dsh plugin add @kenz1117/dsh-ui-rainbowspeak
 ```
 
 Or add it to a profile `package.json` manually:
@@ -74,7 +74,7 @@ Or add it to a profile `package.json` manually:
 ```json
 {
   "dependencies": {
-    "@kenz1117/dsh-ui-composer-rainbow": "*"
+    "@kenz1117/dsh-ui-rainbowspeak": "*"
   }
 }
 ```
@@ -84,7 +84,7 @@ For local development, point the dependency at a checkout:
 ```json
 {
   "dependencies": {
-    "@kenz1117/dsh-ui-composer-rainbow": "link:/absolute/path/to/dsh-ui-composer-rainbow"
+    "@kenz1117/dsh-ui-rainbowspeak": "link:/absolute/path/to/dsh-ui-rainbowspeak"
   }
 }
 ```
@@ -117,4 +117,4 @@ The `client` half is a self-contained IIFE injected into the host web client; th
 
 ## 📄 License
 
-[MIT](https://github.com/kenz1117/dsh-ui-composer-rainbow) © 2026 KenZ (kenz1117)
+[MIT](https://github.com/kenz1117/dsh-ui-rainbowspeak) © 2026 KenZ (kenz1117)

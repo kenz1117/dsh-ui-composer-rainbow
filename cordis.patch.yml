@@ -1,6 +1,6 @@
-# dsh-ui-composer-rainbow bundle patch：dsh plugin add @kenz1117/dsh-ui-composer-rainbow
+# dsh-ui-rainbowspeak bundle patch：dsh plugin add @kenz1117/dsh-ui-rainbowspeak
 # 时以单条目插入 profile 根。行 id 指向本插件 node 半（纯载体，无宿主侧逻辑）；
 # 视觉效果由 client 半（lib/client.js）在浏览器注入样式表实现。
 - insert:
-    - id: ui-composer-rainbow
-      name: '@kenz1117/dsh-ui-composer-rainbow'
+    - id: ui-rainbowspeak
+      name: '@kenz1117/dsh-ui-rainbowspeak'

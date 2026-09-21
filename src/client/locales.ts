@@ -1,10 +1,10 @@
 /**
  * 「彩虹边框」client 词典：zh/en 键并集必须完全一致（类型化注册的编译约束）。
- * @module @kenz1117/dsh-ui-composer-rainbow/client/locales
+ * @module @kenz1117/dsh-ui-rainbowspeak/client/locales
  */
 
 /** 词典命名空间（同时用作 LocaleNamespaceMap 的声明合并键）。 */
-export const NS = 'ui-composer-rainbow'
+export const NS = 'ui-rainbowspeak'
 
 /** 「彩虹边框」设置页全部文案键。 */
 export type RainbowKey =

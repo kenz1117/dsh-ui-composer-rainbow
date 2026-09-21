@@ -2,7 +2,7 @@
  * 「彩虹边框」设置面板：总开关、流速/宽度滑杆、配色与位置选择、反向/呼吸开关。
  * 偏好读写经 preferences（localStorage 持久化 + `<html>` 实时下发），
  * 文案经宿主 locale 词典（zh/en），语言切换自动重渲染。
- * @module @kenz1117/dsh-ui-composer-rainbow/client/settings
+ * @module @kenz1117/dsh-ui-rainbowspeak/client/settings
  */
 
 import { useState } from 'react'

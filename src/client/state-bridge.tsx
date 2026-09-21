@@ -8,7 +8,7 @@
  * useSessionPendingInteraction 标准席位；组件自身渲染 null——它是纯状态桥，
  * 不占版面。
  * 状态优先级：出错 > 审批等待 > 运行中 > 空闲（对用户的关键程度递减）。
- * @module @kenz1117/dsh-ui-composer-rainbow/client/state-bridge
+ * @module @kenz1117/dsh-ui-rainbowspeak/client/state-bridge
  */
 
 import { useEffect, useRef } from 'react'

@@ -1,7 +1,7 @@
 /**
  * 配色方案色标：设置面板预览色块与注入样式表共用的单一来源。
  * 首尾同色闭合（从蓝起顺时针），保证锥形渐变环无缝。
- * @module @kenz1117/dsh-ui-composer-rainbow/client/palettes
+ * @module @kenz1117/dsh-ui-rainbowspeak/client/palettes
  */
 
 /** 每种配色方案的 conic-gradient 色标串（直接拼进 background）。 */

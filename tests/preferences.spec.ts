@@ -42,7 +42,7 @@ describe('loadPrefs / savePrefs', () => {
   })
 
   it('存储损坏（非 JSON）回落默认而不抛错', () => {
-    localStorage.setItem('dsh-ui-composer-rainbow.prefs', '{broken')
+    localStorage.setItem('dsh-ui-rainbowspeak.prefs', '{broken')
     expect(loadPrefs()).toEqual({ ...DEFAULT_PREFS })
   })
 })

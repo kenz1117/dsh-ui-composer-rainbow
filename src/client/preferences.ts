@@ -5,7 +5,7 @@
  * `data-rainbow-*` 标记与 `--dsh-rainbow-*` 变量，两端经此文件解耦。
  * localStorage 读取按 durable 数据边界处理：逐字段校验并夹紧到合法区间，
  * 任何畸形 JSON 或越界值回落默认项，绝不让坏数据进入渲染。
- * @module @kenz1117/dsh-ui-composer-rainbow/client/preferences
+ * @module @kenz1117/dsh-ui-rainbowspeak/client/preferences
  */
 
 /** 配色方案（CSS 里每种方案一段 conic-gradient 色标；theme 跟随宿主品牌色）。 */
@@ -45,7 +45,7 @@ export const DEFAULT_PREFS: Readonly<RainbowPrefs> = Object.freeze({
 
 const PALETTES: readonly RainbowPalette[] = ['rainbow', 'aurora', 'sunset', 'peach', 'ocean', 'cyberpunk', 'theme']
 const SIDES: readonly RainbowSide[] = ['all', 'top', 'bottom']
-const STORAGE_KEY = 'dsh-ui-composer-rainbow.prefs'
+const STORAGE_KEY = 'dsh-ui-rainbowspeak.prefs'
 
 /**
  * 把任意来源的原始值夹紧成合法偏好（localStorage 回读的校验边界）。
