@@ -2,7 +2,7 @@
 
 # dsh-ui-composer-rainbow
 
-<p align="center">一圈会流动的彩虹边框——输入框也有表情：运行时加速、待审琥珀、出错泛红。</p>
+<p align="center"><b>虹语</b> RainbowSpeak — 一圈会流动的彩虹边框，输入框也有表情：运行时加速、待审琥珀、出错泛红。</p>
 
 <p align="center">
   <a href="https://github.com/kenz1117/dsh-ui-composer-rainbow/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/kenz1117/dsh-ui-composer-rainbow?logo=github"></a>

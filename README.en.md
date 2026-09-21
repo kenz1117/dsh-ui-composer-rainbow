@@ -2,7 +2,7 @@
 
 # dsh-ui-composer-rainbow
 
-<p align="center">A flowing rainbow border for the chat composer — the input box has moods: faster while running, amber while waiting, red on failure.</p>
+<p align="center"><b>RainbowSpeak</b> (虹语) — a flowing rainbow border for the chat composer: the input box has moods — faster while running, amber while waiting, red on failure.</p>
 
 <p align="center">
   <a href="https://github.com/kenz1117/dsh-ui-composer-rainbow/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/kenz1117/dsh-ui-composer-rainbow?logo=github"></a>

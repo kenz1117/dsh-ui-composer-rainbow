@@ -1,6 +1,6 @@
 {
   "name": "@kenz1117/dsh-ui-composer-rainbow",
-  "description": "Rainbow marquee border for the DeepSeek Harness chat composer: a continuously flowing conic-gradient ring traced along the input card boundary.",
+  "description": "RainbowSpeak (虹语) — rainbow marquee border for the DeepSeek Harness chat composer: a continuously flowing conic-gradient ring traced along the input card boundary.",
   "version": "0.0.1",
   "keywords": [
     "deepseek-harness",
@@ -9,6 +9,7 @@
     "dsh-plugin",
     "composer",
     "rainbow",
+    "rainbowspeak",
     "marquee",
     "decoration",
     "ui"
