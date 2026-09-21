@@ -8,7 +8,7 @@
   <a href="https://github.com/kenz1117/dsh-ui-composer-rainbow/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/kenz1117/dsh-ui-composer-rainbow?logo=github"></a>
   <a href="https://www.npmjs.com/package/@kenz1117/dsh-ui-composer-rainbow"><img alt="npm version" src="https://img.shields.io/npm/v/@kenz1117/dsh-ui-composer-rainbow?logo=npm"></a>
   <a href="https://www.npmjs.com/package/@kenz1117/dsh-ui-composer-rainbow"><img alt="npm downloads" src="https://img.shields.io/npm/dm/@kenz1117/dsh-ui-composer-rainbow?logo=npm"></a>
-  <a href="https://github.com/kenz1117/dsh-ui-composer-rainbow"><img alt="License MIT" src="https://img.shields.io/badge/License-MIT-blue"></a>
+  <a href="https://github.com/kenz1117/dsh-ui-composer-rainbow/blob/main/LICENSE"><img alt="License MIT" src="https://img.shields.io/github/license/kenz1117/dsh-ui-composer-rainbow"></a>
   <a href="https://github.com/kenz1117/dsh-ui-composer-rainbow/pulls"><img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen"></a>
   <a href="https://github.com/kenz1117/dsh-ui-composer-rainbow"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kenz1117/dsh-ui-composer-rainbow?logo=github"></a>
   <a href="https://github.com/kenz1117/dsh-ui-composer-rainbow/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/kenz1117/dsh-ui-composer-rainbow"></a>
