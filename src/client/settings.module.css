@@ -1,0 +1,134 @@
+/* 「彩虹边框」设置面板样式：全部颜色/间距取宿主 --dsw-* 语义 token，无字面色值。 */
+
+/* section 容器：纵向排布设置行。 */
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dsw-specific-spacing-4, 16px);
+}
+
+/* 一行设置：左文案右控件。 */
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--dsw-specific-spacing-4, 16px);
+}
+
+/* 行的文案列（标题 + 描述）。 */
+.rowText {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dsw-specific-spacing-1, 4px);
+  min-width: 0;
+}
+
+/* 行主文案。 */
+.label {
+  font-size: var(--dsw-typography-font-size-body, 14px);
+  color: var(--dsw-alias-label-primary);
+}
+
+/* 行描述文案。 */
+.desc {
+  font-size: var(--dsw-typography-font-size-caption, 12px);
+  color: var(--dsw-alias-label-secondary);
+}
+
+/* 滑杆行：滑杆 + 当前值徽标。 */
+.rangeRow {
+  display: flex;
+  align-items: center;
+  gap: var(--dsw-specific-spacing-3, 12px);
+  flex: 1;
+  max-width: 260px;
+}
+
+/* 原生 range 的轨道（accent-color 跟随宿主品牌蓝，不重绘 thumb）。 */
+.range {
+  flex: 1;
+  accent-color: var(--dsw-alias-button-info-fill);
+  min-width: 0;
+}
+
+/* 当前值徽标。 */
+.value {
+  font-size: var(--dsw-typography-font-size-caption, 12px);
+  color: var(--dsw-alias-label-secondary);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+/* 选项按钮组（位置选择等小选项行）。 */
+.chipRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--dsw-specific-spacing-2, 8px);
+  justify-content: flex-end;
+}
+
+/* 纵向排布行：标题在上、控件区占满整行（配色网格用）。 */
+.stackRow {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dsw-specific-spacing-2, 8px);
+}
+
+/* 配色网格：一行三个，等宽自适应。 */
+.chipGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--dsw-specific-spacing-2, 8px);
+}
+
+/* 选项按钮（未选中：浅面板底幽灵态）。 */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--dsw-alias-border-l1);
+  background: var(--dsw-alias-bg-layer-2, transparent);
+  color: var(--dsw-alias-label-secondary);
+  border-radius: 10px;
+  padding: 8px 10px;
+  font-size: var(--dsw-typography-font-size-caption, 12px);
+  cursor: pointer;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+/* 未选中悬停：描边加深一档，提示可点。 */
+.chip:hover {
+  border-color: var(--dsw-alias-border-l3);
+  color: var(--dsw-alias-label-primary);
+}
+
+/* 选项内文字：超长截断，避免挤压预览块。 */
+.chipLabel {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 配色预览色块：与实际边框同款的锥形渐变小圆。 */
+.swatch {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid var(--dsw-alias-border-l1);
+  flex: none;
+}
+
+/* 选项按钮（选中：品牌蓝幽灵高亮——描边 + 12% 透明蓝底 + 蓝调文字，
+   明暗主题都由宿主 token 自适应；不用实底填充，浅色主题下主按钮语义是墨黑）。 */
+.chipActive {
+  border-color: var(--dsw-alias-button-info-fill);
+  background: color-mix(in srgb, var(--dsw-alias-button-info-fill) 12%, transparent);
+  color: var(--dsw-alias-label-primary-bluish);
+  cursor: default;
+}
+
+/* 恢复默认按钮行：靠右。 */
+.resetRow {
+  display: flex;
+  justify-content: flex-end;
+}

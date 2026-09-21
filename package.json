@@ -1,0 +1,81 @@
+{
+  "name": "@kenz1117/dsh-ui-composer-rainbow",
+  "description": "Rainbow marquee border for the DeepSeek Harness chat composer: a continuously flowing conic-gradient ring traced along the input card boundary.",
+  "version": "0.0.1",
+  "keywords": [
+    "deepseek-harness",
+    "deepseek",
+    "dsh",
+    "dsh-plugin",
+    "composer",
+    "rainbow",
+    "marquee",
+    "decoration",
+    "ui"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenz1117/dsh-ui-composer-rainbow.git"
+  },
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./src/*": "./src/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/",
+    "cordis.patch.yml"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-renderer",
+        "@deepseek-ai/dsh-client-ui-session",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ],
+      "platform": "web"
+    }
+  },
+  "scripts": {
+    "prepare": "node scripts/link-peers.mjs",
+    "bundle": "tsdown",
+    "watch": "tsdown --watch",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.0",
+    "@types/react": "^18.3.12",
+    "jsdom": "^26.1.0",
+    "lightningcss": "^1.32.0",
+    "react": "^18.3.1",
+    "tsdown": "^0.22.14",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.11"
+  },
+  "pnpm": {
+    "autoInstallPeers": false
+  }
+}
